@@ -19,22 +19,25 @@ CV Application is a web application that allows users to create and view CVs. Th
 ### Installation Steps
 
 1. Clone the repository to your local machine:
-   \`\`\`bash
+
+   ```bash
    git clone https://github.com/vinesk/cv-application.git
    cd cv-application
-   \`\`\`
+   ```
 
 2. Install the dependencies:
-   \`\`\`bash
+
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Run the application in development mode:
-   \`\`\`bash
-   npm run dev
-   \`\`\`
 
-4. Open your browser and go to the displayed URL (usually \`http://localhost:3000\`).
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and go to the displayed URL (usually `http://localhost:3000\`).
 
 ## Usage
 
