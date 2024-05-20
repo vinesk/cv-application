@@ -1,0 +1,32 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  border: 0.125rem solid var(--color-primary);
+  border-radius: 0.25rem;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-md);
+  gap: var(--space-md);
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+  cursor: pointer;
+}
+
+.accordion-chevron {
+  transition: all 0.3s ease;
+}
+
+.accordion-chevron.open {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-md);
+  gap: var(--space-md);
+}
